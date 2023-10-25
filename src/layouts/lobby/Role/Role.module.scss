@@ -1,0 +1,53 @@
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .auto {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 20px 30px;
+
+        h1 {
+            text-align: center;
+            padding-bottom: 15px;
+            width: 300px;
+        }
+
+        button {
+            margin: 5px 0;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid grey;
+            border-radius: 10px;
+            background-color: inherit;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .orgBtn {
+            background-color: orange !important;
+            color: white;
+        }
+
+        .doubleSpan {
+            text-align: center;
+            span {
+                &:nth-child(1) {
+                    color: grey;
+                    
+                }
+
+                &:nth-child(2) {
+                    color: orange;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+}

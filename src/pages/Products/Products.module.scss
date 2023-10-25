@@ -1,0 +1,53 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    height: 100vh;
+
+    .plusAndSearch {
+        display: flex;
+        align-items: center;
+        color: grey;
+        margin-bottom: 20px;
+
+        .searchOfProducts {
+            border: 1px solid grey;
+            border-radius: 7px;
+            padding: 5px 10px;
+            margin: 0 15px;
+
+            input {
+                width: 350px;
+                border: none;
+                outline: none;
+            }
+        }
+
+        button {
+            padding: 6px 10px;
+            border: 1px solid orangered;
+            border-radius: 7px;
+            background-color: inherit;
+            color: orangered;
+        }
+    
+        i, button {
+            cursor: pointer;
+        }
+    }
+
+    .filtrs {
+        select {
+            cursor: pointer;
+            border: 1px solid grey;
+            color: grey;
+            border-radius: 7px;
+            background-color: inherit;
+            margin: 0 10px;
+            padding: 6px 10px;
+        }
+    }
+
+
+}

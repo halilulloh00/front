@@ -1,0 +1,38 @@
+.change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .auto {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 20px 30px;
+        width: 350px;
+
+        h1 {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        input, button {
+            margin: 5px 0;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid grey;
+            border-radius: 10px;
+            background-color: inherit;
+            font-weight: bold;
+        }
+
+        .orgBtn {
+            background-color: orange !important;
+            color: white;
+            cursor: pointer;
+            margin-top: 20px !important;
+        }
+        
+    }
+}
